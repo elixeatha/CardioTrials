@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trial of the Day – Cardiology Quiz</title>
+<meta name="description" content="A daily quiz on a landmark cardiovascular trial, with design diagram, key figure and an archive for practice.">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Trial of the <span>Day</span></h1>
+    <div class="date" id="date"></div>
+  </header>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t-today" aria-selected="true">Today</button>
+    <button class="tab" role="tab" id="t-arch" aria-selected="false">Archive</button>
+  </div>
+  <main id="app"></main>
+  <p class="note">A new landmark cardiovascular trial appears every day at local midnight and cycles through the whole list. Charts are original schematics redrawn from published event rates, not the journals' figures; check the original paper before citing.</p>
+</div>
+<script src="data/trials.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

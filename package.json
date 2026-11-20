@@ -1,0 +1,11 @@
+{
+  "name": "cardio-trial-quiz",
+  "version": "1.0.0",
+  "description": "Daily quiz on a landmark cardiovascular trial, with archive for practice.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate.mjs",
+    "start": "python3 -m http.server 8000"
+  }
+}
